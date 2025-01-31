@@ -1,0 +1,174 @@
+/* Allgemeine Einstellungen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #383838;
+    color: #333;
+}
+
+/* Header und Navigation */
+header {
+    background-color: #333;
+    color: #323232;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Sanfter Übergang */
+}
+
+a:hover {
+    color: #bb61f7; /* Farbe ändern, wenn die Maus darüber fährt */
+}
+
+
+/* Abschnittsüberschriften */
+h1, h3 {
+    color: #333;
+}
+
+h2 {
+    color:#fff;
+}
+
+/* Startseite */
+#home {
+    background-color: #5c5b68;
+    color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+}
+
+/* Über mich */
+#about {
+    padding: 40px 20px;
+    background-color: #1b1b1b;
+}
+
+#about p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* Projekte */
+#projects {
+    padding: 40px 20px;
+    background-color: #333;
+}
+
+.project {
+    margin-bottom: 40px;
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #979797;
+}
+
+.project img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.project a:hover {
+    color: #71018d; /* Farbe ändern, wenn die Maus darüber fährt */
+}
+
+
+
+/* Kontakt */
+#contact {
+    padding: 40px 20px;
+    background-color: #1b1b1b;
+    font-size: 1.5rem;
+    color: #fff
+}
+
+
+#contact a {
+    color: #bb61f7;
+    text-decoration: none; 
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.MeinFoto {
+    float: right; /* Bild auf der linken Seite */
+    margin-right: 20px; /* Abstand zum Text auf der rechten Seite */
+    margin-bottom: 70px; /* Abstand zum unteren Inhalt */
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* Runde Form für ein Porträt */
+}
+
+.Icebound {
+    width: 400px;
+    height: 350px;
+
+}
+
+
+.contact-container {
+    display: flex; /* Flexbox aktivieren */
+    align-items: center; /* Vertikal zentrieren */
+    gap: 30px; /* Abstand zwischen den Bildern */
+    margin-top: 20px; /* Zusätzlicher Abstand nach oben */
+    margin-bottom: 50px;
+    
+}
+
+.clickable-image,
+.clickable-image2 {
+    width: 100px;
+    border-radius: 5px; /* Runde Ecken */
+    transition: transform 0.3s ease; /* Animation */
+    
+}
+
+.clickable-image:hover,
+.clickable-image2:hover {
+    transform: scale(1.1); /* Zoom-Effekt beim Hover */
+    box-shadow: 0px 4px 10px #bb61f7; /* Schatten hinzufügen */
+}
+
